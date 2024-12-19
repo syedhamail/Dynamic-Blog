@@ -19,3 +19,116 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*search icon*/
+
+.search-results {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.search-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search-results li {
+  padding: 5px 0;
+}
+
+ /* bg*/
+ .circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  animation: float 6s ease-in-out infinite;
+}
+
+.circle-1 {
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  animation-delay: 2s;
+}
+
+.circle-2 {
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 128px;
+  height: 128px;
+  animation-delay: 4s;
+}
+
+.circle-3 {
+  bottom: 25%;
+  right: 25%;
+  width: 96px;
+  height: 96px;
+  animation-delay: 0s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+ /* hero section heading line 1-2-3*/
+
+.HS-H-L1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+}
+.HS-H-L2{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  margin-top: 5px;
+}
+.HS-H-L3{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.LM-B{
+  margin-left: 575px;
+}
+
+.F-icons-F{
+  color: white;
+  font-size: 18px;
+}
+
+.F-icons-TYL{
+  color: white;
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+/* Blog Left section img*/
+
+.BLS-img{
+  width: 887px;
+  height: 600px;
+}
+
+.ff{
+  margin-top: 500px;
+}
+
+/* Contact-Us section*/
+.CU-S-M{
+  width: 788px;
+}
