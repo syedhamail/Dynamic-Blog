@@ -17,24 +17,22 @@ export default function About() {
     <main>
       <Header />
 
-      {/*About Section*/}
+      {/* About Section */}
 
-      <section className="flex mt-20">
-        {/*Left Section*/}
-
-        <div className="ml-5">
+      <section className="flex flex-col justify-center lg:flex-row mt-20">
+        {/* Left Section */}
+        <div className="ml-4 mr-4 mb-8 lg:mb-0">
           <div className="w-full">
             <div className="border-2 mt-0.5">
-              <h1 className="font-medium font-serif text-3xl mt-3 mb-3 ml-3.5 mr-3.5 leading-[1.4] ">
+              <h1 className="font-medium font-serif text-3xl mt-3 mb-3 ml-3.5 mr-3.5 leading-[1.4]">
                 About
               </h1>
             </div>
 
-            <div className="border-b-2 border-l-2 border-r-2 text-gray-600 pt-4 pb-5 pl-3.5 pr-3.5 ">
-              <p className=" font-sans mt-2">
+            <div className="border-b-2 border-l-2 border-r-2 text-gray-600 pt-4 pb-5 pl-3.5 pr-3.5">
+              <p className="font-sans mt-2">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the {`industry's`} standard{" "}
-                <br />
+                industry. Lorem Ipsum has been the industry{`'`}s standard <br />
                 dummy text ever since the 1500s, when an unknown printer took a
                 galley of type and scrambled it to make a type specimen <br />
                 book. It has survived not only five centuries, but also the leap
@@ -51,13 +49,13 @@ export default function About() {
                 by the readable content of a page when looking at its layout.
                 The <br />
                 point of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using {`'`}Content here,{" "}
+                distribution of letters, as opposed to using {'"'}Content here,{" "}
                 <br />
-                content here{`'`}, making it look like readable English. Many
+                content here{'"'}, making it look like readable English. Many
                 desktop publishing packages and web page editors now use Lorem{" "}
                 <br />
-                Ipsum as their default model text, and a search for {`'`}lorem
-                ipsum{`'`} will uncover many web sites still in their infancy.
+                Ipsum as their default model text, and a search for {'"'}lorem
+                ipsum{'"'} will uncover many web sites still in their infancy.
                 Various <br />
                 versions have evolved over the years, sometimes by accident,
                 sometimes on purpose (injected humour and the like). <br />
@@ -73,13 +71,13 @@ export default function About() {
                 one of the more obscure Latin words, consectetur, from a Lorem
                 Ipsum passage, and going through the cites of the word in <br />
                 classical literature, discovered the undoubtable source. Lorem
-                Ipsum comes from sections 1.10.32 and 1.10.33 of {`"`}de Finibus{" "}
+                Ipsum comes from sections 1.10.32 and 1.10.33 of {"'"}de Finibus{" "}
                 <br />
-                Bonorum et Malorum{`"`} (The Extremes of Good and Evil) by
+                Bonorum et Malorum{"'"} (The Extremes of Good and Evil) by
                 Cicero, written in 45 BC. This book is a treatise on the theory
                 of <br />
                 ethics, very popular during the Renaissance. The first line of
-                Lorem Ipsum, {`"`}Lorem ipsum dolor sit amet..{`"`}, comes from
+                Lorem Ipsum, {"'"}Lorem ipsum dolor sit amet..{"'"}, comes from
                 a line <br />
                 in section 1.10.32.
               </p>
@@ -88,7 +86,7 @@ export default function About() {
                 The standard chunk of Lorem Ipsum used since the 1500s is
                 reproduced below for those interested. Sections 1.10.32 and{" "}
                 <br />
-                1.10.33 from {`"`}de Finibus Bonorum et Malorum{`"`} by Cicero
+                1.10.33 from {"'"}de Finibus Bonorum et Malorum{"'"} by Cicero
                 are also reproduced in their exact original form, accompanied by{" "}
                 <br />
                 English versions from the 1914 translation by H. Rackham. <br />
@@ -98,10 +96,10 @@ export default function About() {
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by{" "}
                 <br />
-                injected humour, or randomised words which {`don't`} look even
+                injected humour, or randomised words which don{`'`}t look even
                 slightly believable. If you are going to use a passage of Lorem{" "}
                 <br />
-                Ipsum, you need to be sure there {`isn't`} anything embarrassing
+                Ipsum, you need to be sure there isn{`'`}t anything embarrassing
                 hidden in the middle of text. All the Lorem Ipsum generators on{" "}
                 <br />
                 the Internet tend to repeat predefined chunks as necessary,
@@ -117,15 +115,14 @@ export default function About() {
           </div>
         </div>
 
-        {/*Right Section*/}
-
-        <div className="ml-8">
-          {/*Search Section*/}
+        {/* Right Section */}
+        <div className="ml-4 mr-4 ">
+          {/* Search Section */}
           <div className="mt-0.5">
-            <h1 className="font-bold font-sans text-sm border-t-2 border-l-2 border-r-2 pl-3.5 pt-1.5 pb-1.5 w-80">
+            <h1 className="font-bold font-sans text-sm border-t-2 border-l-2 border-r-2 pl-3.5 pt-1.5 pb-1.5 w-full sm:w-80">
               SOCIAL PLUGIN
             </h1>
-            <span className="flex justify-center items-center border-2 w-80 pt-7 pb-7 space-x-6">
+            <span className="flex justify-center items-center border-2 w-full sm:w-80 pt-7 pb-7 space-x-6">
               <a href="https://www.facebook.com">
                 <FaFacebook className="text-blue-800 w-5 h-5" />
               </a>
@@ -144,34 +141,34 @@ export default function About() {
             </span>
           </div>
 
-          {/*Subscribe Section*/}
+          {/* Subscribe Section */}
           <div className="mt-9">
-            <h1 className="font-bold font-sans text-sm border-t-2 border-l-2 border-r-2 pl-3.5 pt-1.5 pb-1.5 w-80">
+            <h1 className="font-bold font-sans text-sm border-t-2 border-l-2 border-r-2 pl-3.5 pt-1.5 pb-1.5 w-full sm:w-80">
               SUBSCRIBE US
             </h1>
-            <span className="flex justify-center border-2 w-80 pt-4 pb-4">
+            <span className="flex justify-center border-2 w-full sm:w-80 pt-4 pb-4">
               <iframe
-                width="280"
+                width="100%"
                 height="160"
                 src="https://www.youtube.com/embed/4POWiiB1iLg"
                 frameBorder="0"
                 allowFullScreen
               >
-                {/*This video is just like a dummy, you can use your own video*/}
+                {/* This video is just like a dummy, you can use your own video */}
               </iframe>
             </span>
           </div>
 
-          {/*Most Popular Section*/}
+          {/* Most Popular Section */}
           <div className="mt-8">
-            <h1 className="font-bold font-sans text-sm border-t-2 border-l-2 border-r-2 pl-3.5 pt-1.5 pb-1.5 w-80">
+            <h1 className="font-bold font-sans text-sm border-t-2 border-l-2 border-r-2 pl-3.5 pt-1.5 pb-1.5 w-full sm:w-80">
               MOST POPULAR
             </h1>
 
-            <div className="border-2 w-80">
-              {/*Blog 1*/}
+            <div className="border-2 w-full sm:w-80">
+              {/* Blog 1 */}
               <div className="-mt-3 ml-4">
-                <span className=" flex items-center">
+                <span className="flex items-center">
                   <Link href={"/Components/TWITBWS"}>
                     <img
                       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUwG_baS5c_IyPrzYu1vT2LauhKlZIve0qqAfODV8UyOcTAm4gg0oDCAgJ0KL-hB6xW99YOIENx7NgPDRdO2609p7_yTEXIMgkO5cmTByK5sKQNGY3P7gkVrq-0ZWNOvem9mUAX1gSl5MuNBcUR6FrhZcYPb5-_qs-LkgkcCqwDYpBzsmH6WtJ9dOy/s16000/5.jpg=w1020-h681-p-k-no-nu"
@@ -188,15 +185,15 @@ export default function About() {
                     </Link>
                     <p className="flex items-center text-xs text-gray-500 font-sans text-blue-900 mt-1">
                       <MdAccessTimeFilled className="mr-1 w-3.5 h-3.5 text-gray-700" />{" "}
-                      Dec 2, 2024{" "}
+                      Dec 2, 2024
                     </p>
                   </div>
                 </span>
               </div>
 
-              {/*Blog 2*/}
+              {/* Blog 2 */}
               <div className="mt-5 ml-4">
-                <span className=" flex items-center">
+                <span className="flex items-center">
                   <Link href={"/Components/BTDAVL"}>
                     <img
                       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5WjAeO5fMcb_K0muNNmfzTrTEI9PpWtuNpdF_E9ikqQOvKlGYKw_Xc0Y5bvUMpElzJUNN8TQEvvMAk0kaF8yxU-Kw_ZBKK1DGBj0KovCXGzTu2IUK9i4CCkPo5NCwu9afOPJY6AoQpkx5sK-xL5eRqKG6xh9iZfIbgZryNEyNR56qozT8DvVtmanl/w83-h66-p-k-no-nu/4.jpg=w72-h72-p-k-no-nu"
@@ -207,20 +204,20 @@ export default function About() {
                   <div>
                     <Link href={"/Components/BTDAVL"}>
                       <p className="font-medium text-sm font-serif hover:text-blue-700 -mt-2">
-                        Beginning Two {`Don't`} A <br /> Very Likeness
+                        Beginning Two {"Don't"} A <br /> Very Likeness
                       </p>
                     </Link>
                     <p className="flex items-center text-xs text-gray-500 font-sans text-blue-900 mt-1">
                       <MdAccessTimeFilled className="mr-1 w-3.5 h-3.5 text-gray-700" />{" "}
-                      Dec 2, 2024{" "}
+                      Dec 2, 2024
                     </p>
                   </div>
                 </span>
               </div>
 
-              {/*Blog 3*/}
+              {/* Blog 3 */}
               <div className="mt-4 mb-5 ml-4">
-                <span className=" flex items-center">
+                <span className="flex items-center">
                   <Link href={"/Components/SMBAFFHL"}>
                     <img
                       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimx2-uW3IFmiL3-srMy2AmdJQOaB-0cNaDuERru74JjDPcJG7gsgZvv4sohEww4zzFPe9YOnMhXZ9ngKwXDBgEHrmzdvcQBZ2e_uMct_lx7hwH9FmrEDMFqUUtIguXlh3KeRlXVW3AyXZCtFOAQrEoZA-TKOrLHH1x8gYuwrvBFhSkc_er6AiG-PI9/w83-h66-p-k-no-nu/6.jpg=w72-h72-p-k-no-nu"
@@ -230,14 +227,13 @@ export default function About() {
                   </Link>
                   <div>
                     <Link href={"/Components/SMBAFFHL"}>
-                      <p className="font-medium text-sm font-serif hover:text-blue-700 mt-2">
-                        Set May Bearing and <br /> Female Fourth Heaven <br />{" "}
-                        Lesser
+                      <p className="font-medium text-sm font-serif hover:text-blue-700 pt-7">
+                        Simple May Be Able For <br /> Feeling How Life Lives
                       </p>
                     </Link>
                     <p className="flex items-center text-xs text-gray-500 font-sans text-blue-900 mt-1">
                       <MdAccessTimeFilled className="mr-1 w-3.5 h-3.5 text-gray-700" />{" "}
-                      Dec 2, 2024{" "}
+                      Dec 2, 2024
                     </p>
                   </div>
                 </span>
